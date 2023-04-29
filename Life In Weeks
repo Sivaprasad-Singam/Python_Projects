@@ -1,0 +1,32 @@
+
+# Life in weeks
+age = input("What is your current age? ")
+
+
+
+age_as_int = int(age)
+
+years_remaining = 90-age_as_int
+days_remaining = years_remaining*365
+weeks_remaining = years_remaining*52
+months_remaining = years_remaining*12
+
+
+result = print(f"you have {days_remaining} days,{weeks_remaining} weeks and {months_remaining} months left")
+
+========================
+
+age = input("What is your current age? ")
+
+
+limit = int(input("Enter Age limit ? "))
+days_in_year = int(input("Enter days in year ?"))
+weeks_in_year = int(input("Enter weeks in year? "))
+months_in_year = int(input("Enter months in a year?"))
+age_as_int = int(age)
+
+days_remaining = ((limit-age_as_int)*days_in_year)
+weeks_remaining = ((limit-age_as_int)*weeks_in_year) 
+months_remaining = ((limit-age_as_int)*months_in_year)
+
+result = print(f"you have {days_remaining} days, {weeks_remaining} weeks and {months_remaining} months")
